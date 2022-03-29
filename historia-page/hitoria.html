@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* damos estilos siguiendo el arbol de etiquetas */
+        body div section ul li span {
+            background-color: rgb(107, 79, 133);
+        }
+    </style>
+
+    <!-- aqui conectamos con nuestro archivo de estilos css -->
+    <link rel="stylesheet" href="../css/historia.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- aqui se pueden aprecias estilos en linea -->
+    <div style="border: 10px solid; margin: 50px; border-radius: 10px">
+        <section>
+            <ul>
+                <li> <strong>dato1</strong> </li>
+                <li><span>un texto con fondo diferente y este estilo lo toma directamente de los stilos definidos en la
+                        etiqueta head de nuestro html</span></li>
+                <li>esta etiqueta tiene un fondo diferente tomado desde el archivo css ==> body> div > section > ul >li:nth-child(3) </li>
+                <li>dat...</li>
+            </ul>
+        </section>
+    </div>
+
+    <p>los estilos de estos parrafos los toma del archivo de estilos</p>
+
+    <article>
+        <p>Lorem ipsum dolor sit <strong>este texto debe No tener un fondo</strong> amet consectetur adipisicing elit. Repellat velit voluptatem, et totam fugiat libero
+            repellendus aliquid <strong>este texto debe tener un fondo</strong> perspiciatis consequuntur quod molestiae voluptates! Exercitationem consequuntur
+            quidem vitae sint assumenda explicabo.
+        </p>
+</body>
+</article>
+
+<p>otro texto de parrafo</p>
+
+
+
+
+</html>

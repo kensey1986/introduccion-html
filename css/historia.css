@@ -1,0 +1,12 @@
+body p{
+    background: blue;
+}
+
+body > article > p{
+    background: yellowgreen;
+}
+
+body> div > section > ul >li:nth-child(3){
+
+    background: darkgoldenrod;
+}
